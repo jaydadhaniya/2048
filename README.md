@@ -1,16 +1,27 @@
-# 2048
+# 2048 Game
 
-It's a Game. The objective is to combine tiles with the same number to create a tile with the number 2048.
+2048 Game built with Vue 3 and Vite.
 
-## Recommended IDE Setup
+## Overview
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+The 2048 project is a classic sliding tile puzzle game where the player combines tiles with the same number to reach the target tile of 2048. This project showcases the use of Vue 3 for building interactive user interfaces and managing application state with reactivity.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+You can play the game here: [2048 Game](https://jaydadhaniya.github.io/2048/)
 
 ## Project Setup
+
+To get started with the project, follow these steps:
+
+### Clone Repository
+
+First, clone the repository and install the necessary dependencies:
+
+```sh
+git clone https://github.com/jaydadhaniya/2048.git
+cd 2048
+```
+
+### Install Dependencies
 
 ```sh
 npm install
