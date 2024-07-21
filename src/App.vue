@@ -75,9 +75,6 @@
   const score = ref(saveScore ? Number(saveScore) : 0); // Current score
   const bestScore = ref(saveBestScore ? Number(saveBestScore) : 0); // Best score
 
-  score.value = 12345378;
-  bestScore.value = 12345678;
-
   // Lifecycle hook to initialize the game and add event listeners
   onMounted(() => {
     if (!saveGrid) {
