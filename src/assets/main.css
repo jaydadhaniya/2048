@@ -1,0 +1,173 @@
+@import "./base.css";
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    /* display: flex; */
+    /* place-items: center; */
+    margin: 15px;
+  }
+
+  /* #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  } */
+}
+
+strong {
+  font-weight: bold;
+}
+
+.dF {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fC {
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.fC,
+.fCr {
+  -webkit-box-orient: vertical;
+}
+
+.fCr {
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+.fR {
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.fR,
+.fRr {
+  -webkit-box-orient: horizontal;
+}
+
+.fRr {
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.jC {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.jS {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.jE {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.jSA {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.jSB {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.f1 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.f2 {
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+.aC {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.aE {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.aS {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.aSA {
+  -webkit-box-align: space-around;
+  -ms-flex-align: space-around;
+  align-items: space-around;
+}
+
+.aSB {
+  -webkit-box-align: space-between;
+  -ms-flex-align: space-between;
+  align-items: space-between;
+}
+
+.aSTR {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.fw {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
